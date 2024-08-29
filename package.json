@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "npx eslint .",
     "build": "rm -rf ./node_modules && npm install",
-    "wdio": "wdio run ./wdio.conf.js"
+    "wdio": "wdio run ./wdio.conf.js",
+    "test": "npm run wdio"
   },
   "keywords": [],
   "author": "",
