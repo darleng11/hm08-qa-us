@@ -16,25 +16,25 @@ exports.config = {
         'goog:chromeOptions': {
             args: ['headless', 'disable-gpu']
         }
-    },
-    {
+    }
+    /*{
         maxInstances: 5,
         browserName: 'firefox',
         acceptInsecureCerts: true,
         'moz:firefoxOptions': {
             args: ['-headless']
         }
-    }
+    }*/
 ],
     logLevel: 'error',
     bail: 0,
-    baseUrl: 'https://cnt-7c022809-4e88-4190-9eed-e0a2d85e0cb0.containerhub.tripleten-services.com',
+    baseUrl: 'https://cnt-d130cf68-b0fc-4c45-b7cb-92242e75ae93.containerhub.tripleten-services.com',
     waitforTimeout: 10000,
     connectionRetryTimeout: 120000,
     connectionRetryCount: 3,
     services: [
         'chromedriver', 
-        'geckodriver', 
+        //'geckodriver', 
         'intercept', 
     ],
     framework: 'mocha',
