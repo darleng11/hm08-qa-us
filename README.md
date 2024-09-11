@@ -27,7 +27,7 @@ npm run wdio
 - **WebDriverIO**: A testing automation framework that allows interaction with web applications through a browser.
 - **Mocha**: A testing framework used to structure and execute the tests.
 - **Chai**: An assertion library used with Mocha to validate test outcomes.
-- **JavaScript (ES6+)**: The programming language used to write the tests.
+- **JavaScript**: The programming language used to write the tests.
 - **Node.js**: The JavaScript runtime environment used to set up and run WebDriverIO.
 - **npm**: A package manager used to install dependencies and run scripts.
 
