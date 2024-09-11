@@ -3,7 +3,6 @@ const helper = require('../../helper')
 
 describe('Create an order', () => {
     it('should open phone number modal', async () => {
-        console.log('Running test: should open phone number modal');
         await browser.url(`/`)
         await page.fillAddresses('East 2nd Street, 601', '1300 1st St');
         const phoneNumberButton = await $(page.phoneNumberButton);
